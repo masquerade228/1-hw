@@ -132,11 +132,11 @@ a {
         text-transform: capitalize;
  }
 
- .hidden-list {}
-
- .hidden-list-item {
-    background-color: #FFFFFF;
+ .hidden-list {
+    background-color: #fff;
  }
+
+ .hidden-list-item {}
 
  .hidden-item-title {
     font-weight: 500;
@@ -161,6 +161,7 @@ a {
 
 .team {
     background-color: #f4f4fd;
+    text-transform: capitalize;
 }
 
 .team-title {
@@ -170,7 +171,6 @@ a {
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        text-transform: capitalize;
 }
 
 .team-list {}

@@ -120,7 +120,9 @@ a {
  /* #region hidden */
 
 
- .hidden {}
+ .hidden {
+    background-color: #fff;
+ }
 
  .hidden-title {
     font-weight: 700;
@@ -134,7 +136,9 @@ a {
 
  .hidden-list {}
 
- .hidden-list-item {}
+ .hidden-list-item {
+    background-color: #fff;
+ }
 
  .hidden-item-title {
     font-weight: 500;

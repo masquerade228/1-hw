@@ -6,6 +6,12 @@ body {
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
 }
 
 a {
@@ -17,11 +23,30 @@ a {
     font-family: "Roboto", sans-serif;
  }
 
+ .container {
+    width: 1158px; 
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+ }
+
+ .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+ }
+
+
+
  /* #region header */
 
  .header {}
 
- .nav-header {}
+
+ .nav-header {
+    display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+ }
 
  .logo-header {
     font-family: "Raleway", sans-serif;
@@ -43,7 +68,9 @@ a {
         color: #2e2f42;
  }
 
- .nav-list-header {}
+ .nav-list-header {
+    display: flex;
+ }
 
  .nav-item-header {}
 
@@ -64,7 +91,9 @@ a {
     font-style: normal;
  }
 
- .header-addr-list {}
+ .header-addr-list {
+    display: flex;
+ }
 
  .header-addr-item {}
 
@@ -89,7 +118,19 @@ a {
 
  .hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
  }
+
+ .hero-content {}
+
+
+ .ingredients-title {
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+ }
+
 
  .hero-title {
     font-weight: 700;
@@ -134,7 +175,10 @@ a {
         text-transform: capitalize;
  }
 
- .hidden-list {}
+ .hidden-list {
+    padding-left: 156px;
+    padding-right: 156px;
+ }
 
  .hidden-list-item {
     background-color: #fff;

@@ -107,6 +107,8 @@ a {
 
  .header-addr-list {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
     gap: 40px;
  }
 

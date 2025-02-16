@@ -51,6 +51,8 @@ a {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
     justify-content: space-between;
  }
 

@@ -211,6 +211,8 @@ a {
 
  .hidden-list-item {
     background-color: #fff;
+    padding-left: 0;
+    margin: 0;
     flex-basis: calc((100% - 72px) / 4);
  }
 

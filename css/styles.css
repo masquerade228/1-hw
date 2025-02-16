@@ -48,8 +48,8 @@ a {
  }
 
  .header-container {
-    display: flex;
     justify-content: space-between;
+    display: flex
  }
 
 
@@ -103,12 +103,12 @@ a {
 
  .header-addr {
     font-style: normal;
+    padding-top: 24px;
+    padding-bottom: 24px;
  }
 
  .header-addr-list {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     gap: 40px;
  }
 

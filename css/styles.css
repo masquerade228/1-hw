@@ -39,13 +39,20 @@ a {
 
  /* #region header */
 
- .header {}
+ .header {
+    border-bottom: 1px solid #e7e9fc;
+ }
+
+ .header-container {
+    display: flex;
+ }
 
 
  .nav-header {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    align-items: center;
  }
 
  .logo-header {
@@ -56,6 +63,7 @@ a {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 76px;
  }
 
  .logo-style {
@@ -70,6 +78,7 @@ a {
 
  .nav-list-header {
     display: flex;
+    gap: 40px;
  }
 
  .nav-item-header {}
@@ -93,6 +102,9 @@ a {
 
  .header-addr-list {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    gap: 40px;
  }
 
  .header-addr-item {}

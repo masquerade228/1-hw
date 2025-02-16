@@ -47,13 +47,12 @@ a {
     display: flex;
     padding-top: 24px;
     padding-bottom: 24px;
+    justify-content: space-between;
  }
 
 
  .nav-header {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     align-items: center;
  }
 

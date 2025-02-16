@@ -45,6 +45,8 @@ a {
 
  .header-container {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
  }
 
 
@@ -78,6 +80,8 @@ a {
 
  .nav-list-header {
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
     gap: 40px;
  }
 

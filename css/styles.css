@@ -194,24 +194,13 @@ a {
      margin: -1px;
      border: 0;
      padding: 0;
-
      white-space: nowrap;
      clip-path: inset(100%);
      clip: rect(0 0 0 0);
      overflow: hidden;
-    margin-bottom: 8px;
  }
 
- .hidden-title {
-    font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        text-transform: capitalize;
-       
- }
+ 
 
  .hidden-list {
     padding-left: 156px;

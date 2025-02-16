@@ -55,8 +55,6 @@ a {
 
  .nav-header {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
     align-items: center;
  }
 
@@ -90,6 +88,7 @@ a {
 
  .nav-item-link-header {
     font-weight: 500;
+        padding: 24px 0;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;

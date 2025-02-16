@@ -163,6 +163,11 @@ a {
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5;
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
  }
 
  .hero-btn:hover,

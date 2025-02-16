@@ -103,8 +103,6 @@ a {
 
  .header-addr {
     font-style: normal;
-    padding-top: 24px;
-    padding-bottom: 24px;
  }
 
  .header-addr-list {
@@ -112,7 +110,10 @@ a {
     gap: 40px;
  }
 
- .header-addr-item {}
+ .header-addr-item {
+    padding-top: 24px;
+    padding-bottom: 24px;
+ }
 
  .header-addr-link {
     font-family: "Roboto", sans-serif;

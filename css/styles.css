@@ -207,13 +207,12 @@ a {
     padding-right: 156px;
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 
  }
 
  .hidden-list-item {
     background-color: #fff;
-    width: calc((100% - 72px) / 4);
-    
  }
 
  .hidden-item-title {

@@ -110,10 +110,7 @@ a {
     gap: 40px;
  }
 
- .header-addr-item {
-    padding-top: 24px;
-    padding-bottom: 24px;
- }
+ .header-addr-item {}
 
  .header-addr-link {
     font-family: "Roboto", sans-serif;

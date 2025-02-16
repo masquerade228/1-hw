@@ -28,7 +28,9 @@ a {
  }
 
  .container {
-    width: 1158px; 
+    width: 1158px;
+    padding-top: 24px;
+    padding-bottom: 24px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
@@ -49,10 +51,6 @@ a {
 
  .header-container {
     display: flex;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    padding-left: 15px;
-    padding-right: 15px;
     justify-content: space-between;
  }
 

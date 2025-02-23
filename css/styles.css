@@ -466,6 +466,9 @@ a {
 .footer-container {
     display: flex;
     align-items: baseline;
+}
+
+.footer-second-container {
     margin-right: 120px;
 }
 

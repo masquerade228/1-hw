@@ -236,10 +236,24 @@ a {
     gap: 24px;
  }
 
+
  .hidden-list-item {
     background-color: #fff;
     flex-basis: calc((100% - 72px) / 4);
  }
+
+
+ .hidden-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+ }
+
 
  .hidden-item-title {
     font-weight: 500;

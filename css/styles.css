@@ -340,6 +340,7 @@ a {
 .team-app-item {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-app-link {
@@ -352,7 +353,10 @@ a {
     justify-content: center;
 }
 
-.team-app-link:hover
+.team-app-link:hover {
+    background-color: #404bbf;
+}
+
 .team-app-link:focus {
     background-color: #404bbf;
 }

@@ -87,7 +87,8 @@ a {
  .nav-item-header {}
 
  .nav-item-link-header {
-    font-weight: 500;
+    position: relative;
+        font-weight: 500;
         padding: 24px 0;
         font-size: 16px;
         line-height: 1.5;
@@ -98,6 +99,20 @@ a {
  .nav-item-link-header:hover,
  .nav-item-link-header:focus {
     color: #404bbf;
+ }
+
+ .current {
+    color: #404bbf;
+ }
+
+ .current::after {
+    content:"";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 4px;
+    background-color: #404bbf;
  }
 
  .header-addr {
@@ -131,9 +146,16 @@ a {
  /* #region hero */
 
  .hero {
+    margin: 0 auto;
+    max-width: 1440px;
     background-color: #2e2f42;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)),
+    url(../images/peopleoffice.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
  }
 
  .hero-content {}

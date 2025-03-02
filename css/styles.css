@@ -566,6 +566,7 @@ a {
     visibility: hidden;
     opacity: 0;
     pointer-events: none;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .backdrop.is-open {
@@ -584,27 +585,54 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
  .close-btn {
     position: absolute;
     right: 24px;
     top: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
  }
 
 
  .close-btn:hover {
     background-color: #404bbf;
     color: #FFFFFF;
+    border: none;
  }
 
  .close-btn:focus {
     background-color: #404bbf;
     color: #FFFFFF;
+    border: none;
  }
 
   
- .close-btn-icon {}
+ .close-btn-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+
+ .close-btn-icon:hover {
+    fill: #ffffff
+ }
+
+
+ .close-btn-icon:focus {
+    fill: #ffffff
+ }
 
 
  .modal-text {

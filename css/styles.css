@@ -595,6 +595,7 @@ a {
     position: absolute;
     right: 24px;
     top: 24px;
+    width: 24px;
     height: 24px;
     border-radius: 50%;
     display: flex;
@@ -609,13 +610,13 @@ a {
 
  .close-btn:hover {
     background-color: #404bbf;
-    color: #FFFFFF;
+    fill: #ffffff;
     border: none;
  }
 
  .close-btn:focus {
     background-color: #404bbf;
-    color: #FFFFFF;
+    fill: #ffffff;
     border: none;
  }
 

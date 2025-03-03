@@ -746,6 +746,11 @@ a {
     border: transparent;
     fill: #F4F4FD;
 }
+
+
+.container-comment {
+    margin-bottom: 16px
+}
  
 
  /* #endregion backdrop */

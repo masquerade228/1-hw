@@ -702,6 +702,50 @@ a {
 .modal-form-input:focus + .modal-form-icon {
     fill: #4D5AE5;
 }
+
+
+.modal-form-container-checkbox {
+    margin-bottom: 24px;
+}
+
+
+.custom-checkbox {
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    width: 16px;
+    height: 16px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-right: 8px;
+    fill: transparent;
+}
+
+
+.label-checkbox {
+    cursor: pointer;
+    font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: #8e8f99;
+}
+
+
+.label-checkbox a {
+    line-height: 1.33;
+        text-decoration: underline;
+        text-decoration-skip-ink: none;
+        color: #4d5ae5;
+}
+
+
+.checkbox:checked + .label-checkbox .custom-checkbox {
+    background-color: #404BBF;
+    border: transparent;
+    fill: #F4F4FD;
+}
  
 
  /* #endregion backdrop */

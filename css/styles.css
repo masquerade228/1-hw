@@ -808,6 +808,7 @@ a {
 }
 
 
+
 .footer-form {
     gap: 24px;
 }
@@ -851,9 +852,9 @@ a {
 }
 
 
-.footer-icon {
+.footer-icon-telegram {
     margin-left: 16px;
-    
+    fill: #FFFFFF;
 }
  
 

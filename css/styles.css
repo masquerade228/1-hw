@@ -856,6 +856,11 @@ a {
     margin-left: 16px;
     fill: #FFFFFF;
 }
+
+
+::placeholder {
+    color: #FFFFFF;
+}
  
 
  /* #endregion backdrop */

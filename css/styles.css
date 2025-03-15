@@ -507,6 +507,11 @@ a {
         max-width: 264px;
 }
 
+
+.footer-item-container {
+    margin-right: 80px;
+}
+
 .footer-paragraph {
     font-weight: 500;
     font-size: 16px;
@@ -837,7 +842,6 @@ a {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 16px;
     min-width: 165px;
     border-radius: 4px;
     padding: 8px 24px;

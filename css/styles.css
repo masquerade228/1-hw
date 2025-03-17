@@ -103,9 +103,40 @@ a {
         color: #2e2f42;
  }
 
+
+ .icon-btn-mobile {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    line-height: 0;
+    fill: #2e2f42;
+    display: block;
+ }
+
+
+@media screen and (min-width: 768px) {
+    .icon-btn-mobile {
+        display: none;
+    }
+}
+    
+
  .nav-list-header {
     display: flex;
     gap: 40px;
+ }
+
+ .nav-list-header {
+    display: none;
+ }
+
+
+ @media screen and (min-width: 768px) {
+    .nav-list-header {
+        display: flex;
+        gap: 40px;
+        }
  }
 
  .nav-item-header {}
@@ -149,6 +180,19 @@ a {
  .header-addr-list {
     display: flex;
     gap: 40px;
+ }
+
+
+ .header-addr-list {
+    display: none;
+ }
+
+
+ @media screen and (min-width: 768px) {
+    .header-addr-list {
+        display: flex;
+        gap: 40px;
+    }
  }
 
  .header-addr-item {}
